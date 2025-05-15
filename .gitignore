@@ -1,0 +1,16 @@
+__pycache__/
+*/__pycache__/
+.vscode/
+
+archive/
+log/
+output/
+wandb/
+*.pyc
+*.pkl
+*.pt
+*.png
+.env
+*.log
+model/
+api_key.py

@@ -1,0 +1,14 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: Qwen/Qwen3-8B
+adapter_name_or_path: ./output/sft_lora_qwen3-8b
+template: qwen3
+trust_remote_code: true
+resize_vocab: false
+
+### export
+export_dir: ./output/sft_merged_qwen3-8b
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
